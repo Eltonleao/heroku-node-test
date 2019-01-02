@@ -5,7 +5,7 @@ var fs = require('fs');
 
 app.get('/', function(req, res){
     res.send('homepage');
-    fs.writeFileSync("writeMe.txt", "writed!")
+    fs.writeFileSync("writeMe.txt", "writed!");
 });
 
 var port=Number(process.env.PORT || 9000);
