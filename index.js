@@ -1,11 +1,11 @@
 var http = require('http');
 var express = require('express');
 var app = express();
-var fs = require('fs');
+
+app.use('/public', express.static('public'));
 
 app.get('/', function(req, res){
-    res.send('homepage');
-    fs.writeFileSync("writeMe.txt", "writed!");
+    res.sendFile(__dirname + '/home.html');
 });
 
 var port=Number(process.env.PORT || 9000);
