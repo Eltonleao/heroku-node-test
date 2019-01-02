@@ -1,0 +1,24 @@
+{
+  "name": "testarea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eltonleao/herokuNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eltonleao/herokuNode/issues"
+  },
+  "homepage": "https://github.com/Eltonleao/herokuNode#readme",
+  "description": ""
+}
