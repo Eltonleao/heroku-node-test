@@ -1,10 +1,10 @@
 var http = require('http');
 var express = require('express');
-var app = express();
+var server = express();
 var fs = require('fs');
 var count = 0;
 
-app.get('/', function(req, res){
+server.get('/', function(req, res){
     res.send('homepage');
     fs.writeFileSync("writeMe.txt", "writed!")
     console.log('request '+count);
@@ -12,4 +12,6 @@ app.get('/', function(req, res){
 });
 
 
-app.listen(8080);
+
+var port=Number(process.env.PORT || 9000);
+server.listen(port);
