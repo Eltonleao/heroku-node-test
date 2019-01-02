@@ -12,3 +12,4 @@ console.log(writeMe);
 
 var port=Number(process.env.PORT || 9000);
 server.listen(port);
+console.log("teste ok");
