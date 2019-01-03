@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/public/style.css">
+    </head>
+    <body>
+        <% include partials/nav.ejs %>
+        <h1>Mysql</h1>
+        <div id="table">
+            <ul>
+                <% for(var i=0; i<person.length; i++){ %>
+                    <li> <%=person[i].name %></li>
+                <% } %>
+            </ul>
+        </div>
+    </body>
+</html

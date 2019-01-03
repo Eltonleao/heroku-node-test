@@ -1,0 +1,26 @@
+{
+  "name": "testarea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eltonleao/herokuNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eltonleao/herokuNode/issues"
+  },
+  "homepage": "https://github.com/Eltonleao/herokuNode#readme",
+  "description": ""
+}
